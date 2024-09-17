@@ -1,0 +1,17 @@
+p {font-weight: 300;
+color:rgb(235, 215, 215);
+background-color: rgb(28, 121, 137);
+font-style: italic;
+line-height: 100%;
+font-size: 50px;
+}
+
+img { width: 200px;
+    height: 100px;
+}
+
+img{
+height: 500px;
+width: 300px;
+
+}

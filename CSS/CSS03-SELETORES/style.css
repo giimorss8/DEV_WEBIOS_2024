@@ -1,0 +1,9 @@
+#p{
+color:brown
+}
+/* Toda vez que precisar acessar um ID no CSS, 
+devo utilizar o # antes do nome do identificador */
+
+#Aba1{
+    background-color: blue;
+}
