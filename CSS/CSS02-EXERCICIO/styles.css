@@ -1,19 +1,16 @@
-p {
-    font-size: 1rem;
-    font-weight: 700;
-    /* font-family: ; */
+:root {
+    font-weight: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700px;
     background-color: #b3e9f3;
-                        }
+}
 
- 
-    
+.Principal-Titulo {
+    background-color: #6590d1;
+    border-radius: 3px, 3px #48789f;
+}
 
-
-
-
-
-img {
-    height: 500px;
+.Foto {
     width: 300px;
-                  }
-
+    height: auto;
+}
