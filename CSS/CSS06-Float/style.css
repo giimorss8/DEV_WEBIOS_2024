@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+
+img {
+    float:left;
+    border: 5px solid brown;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+#img2{
+    float: right;
+}
+
+p{
+    clear: both;
+}
