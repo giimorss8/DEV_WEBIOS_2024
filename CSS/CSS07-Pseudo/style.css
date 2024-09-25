@@ -1,0 +1,39 @@
+button {
+    background-color: blue;
+    color: blanchedalmond;
+    width: 10em;
+    border-radius: 5px;
+    /* arredonda as bordas*/
+    border-color: antiquewhite;
+    /* cor das bordas*/
+}
+
+button:hover {
+    background-color: rgb(72, 174, 193);
+    color: rgb(18, 18, 197);
+    border-color: black;
+    cursor: pointer;
+
+}
+
+p:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+imput:focus {
+    background-color: crimson;
+}
+
+/*li:first-child {
+    border: 1px solid blueviolet;
+}*/
+
+li:nth-child(3){
+    border: 3px solid blueviolet;
+} /*Para selecionar uma LI expecífica*/
+
+li:nth-child(2){
+    border: 3px solid rgb(134, 237, 30);
+}
+    
