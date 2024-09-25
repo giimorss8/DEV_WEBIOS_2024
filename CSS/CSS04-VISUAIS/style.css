@@ -1,32 +1,45 @@
 body {
-    background-image: url("./60e5a1c72e0f95355a1db00a638d6abe.jpg");
-    background-position: 50%;
-    background-attachment:scroll
+    background-color: #eefaa8;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
-
-#p1 {
-    /*border-width: 2px;
-    border-color: aqua;
-    border-style: solid; Forma abaixo pra resumir */
-    border: groove 20px rgb(166, 36, 39);
+header {
+    background-color: #649ea7;
     text-align: center;
-
+    border: 1px solid #000000;
+    padding: 10px 0;
 }
 
-#p2 {
-    border: inset 15px blueviolet;
-    width: 300px;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td,
+tr {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #8fbfb9;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
     height: auto;
-    text-align: center;
+    max-width: 600px;
+    margin-top: 20px;
 }
 
-figure {
-    border: 5px solid;
-    border-radius: 10px;
+figcaption {
     text-align: center;
-}
-
-#p3 {
-    text-shadow: 10px 10px 4 px black;
+    margin-top: 10px;
 }
