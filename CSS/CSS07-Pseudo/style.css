@@ -13,7 +13,6 @@ button:hover {
     color: rgb(18, 18, 197);
     border-color: black;
     cursor: pointer;
-
 }
 
 p:hover {
@@ -29,11 +28,37 @@ imput:focus {
     border: 1px solid blueviolet;
 }*/
 
-li:nth-child(3){
+li:nth-child(3) {
     border: 3px solid blueviolet;
 } /*Para selecionar uma LI expecífica*/
 
-li:nth-child(2){
+li:nth-child(2) {
     border: 3px solid rgb(134, 237, 30);
 }
-    
+
+#p2::after {
+    content: "-Aqui nós adicionamos o after";
+    border: 3px dotted blueviolet;
+}
+
+#p2::before {
+    content: "-Aqui o Before";
+    border: 3px dotted blueviolet;
+}
+
+.p3::first-letter {
+    font-size: 4em;
+    color: rgb(21, 71, 179);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.p3::first-line {
+    background-color: orange;
+    color: azure;
+}
+
+.p5::selection {
+    background-color: brown;
+    color: greenyellow;
+}
