@@ -1,19 +1,25 @@
-body{
+body {
     text-align: center;
 }
 
-img{
+img {
     width: 700px;
     height: 700px;
 }
 
-h1{
+h1 {
     font-size: 3rem;
-}
-/*sempre definir valores pares*/
-@media(max-width:420px){
-    body{
-        background-color: #10b0c99e;
-    }
+    background-color: aquamarine;
 }
 
+/*sempre definir valores pares*/
+@media(max-width:420px) {
+    body {
+        background-color: #10b0c99e;
+    }
+
+    img {
+        height: 35rem;
+        width: 100%;
+    }
+}
