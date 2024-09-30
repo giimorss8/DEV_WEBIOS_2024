@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #c1c2bc; 
+}
+
+.container {
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.first-block {
+    display: flex;
+    align-items: center;
+}
+
+.first-block img {
+    transition: transform 0.3s;
+    width: 20em;
+    height: 20em;
+}
+
+.first-block img:hover {
+    transform: scale(1.1);
+}
+
+.summary {
+    margin-left: 20px;
+}
+
+.first-line {
+    background-color: #533618;
+    color: white;
+    padding: 0.5em;
+}
+
+.btn {
+    background-color: #725436;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #8c867c;
+}
+
+.second-block {
+    display: flex;
+    margin-top: 2em;
+}
+
+.second-block iframe {
+    width: 60%;
+    height: 315px;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.third-block {
+    margin-top: 2em;
+}
+
+article {
+    background: #314A20;
+    color: white;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.third-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.news-summary {
+    background-color: #8C867C;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.news-summary img {
+    max-width: 100%;
+}
+
+.news-summary h3 {
+    color: #533618;
+    font-size: 70%;
+}
+
+.news-summary.btn {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background-color: #725436;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.news-item .btn:hover {
+    background-color: #8C867C;
+}
+
+    footer {
+        text-align: center;
+        margin-top: 2em;
+        padding: 1em;
+        background-color: #533618;
+        color: #C1C2BC;
+    }
+
+    ::selection {
+        background-color: #314A20;
+        color: #fff;
+    }
+
+    footer::after {
+        content: "Todos os direitos reservados | 2022 - Giovanna Miranda";
+    }
