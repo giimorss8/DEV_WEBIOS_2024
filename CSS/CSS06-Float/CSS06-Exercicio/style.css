@@ -1,0 +1,78 @@
+body { 
+    margin: auto; 
+    width: 80%; 
+    font-family: "Exo 2", sans-serif; 
+    border: 1px solid black; 
+} 
+
+.Container { 
+    padding: 2em; 
+    font-family: "Exo 2", sans-serif; 
+    background-color: #95d8b8; 
+} 
+
+#imgtitulo { 
+    width: 7em; 
+    height: 80px; 
+} 
+
+#titulo1{ 
+    color: blue; 
+} 
+
+figure { 
+    width: 250px; 
+    padding: 5px; 
+    border: 2px solid #000000; 
+} 
+figcaption { 
+    font-size: 1.2em; 
+    text-align: center; 
+    padding: 5px; 
+} 
+
+p { 
+    font-size: 1.3em; 
+} 
+
+img { 
+    width: 250px; 
+    height: 200px; 
+} 
+
+.images { 
+    border: 1px solid #000000; 
+    width: 100%; 
+    float: left; 
+} 
+
+.Vlz2001 { 
+    float: none; 
+} 
+
+.MaisVlz2003 { 
+    float: left; 
+} 
+
+.DsfToquio2006 { 
+    float: right; 
+} 
+
+.Vlzs2009{ 
+    float: left; 
+} 
+.Vlzs2011{ 
+    float: right; 
+} 
+.Ordens{
+    font-size: 1.3em; 
+    font-family: "Exo 2", sans-serif; 
+}
+
+footer{ 
+    font-size: 1.3em; 
+    font-family: "Exo 2", sans-serif; 
+} 
+
+ 
+ 
