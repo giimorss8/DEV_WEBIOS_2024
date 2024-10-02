@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: rgb(159, 214, 196);
+}
+
+#container {
+    height: 70vh;
+    /*colum- Coluna
+    Row- Linhas*/
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+
+.item {
+    border: 3px solid black;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(161, 205, 212)
+}
+
+.item-1{
+    height: 40px;
+}
