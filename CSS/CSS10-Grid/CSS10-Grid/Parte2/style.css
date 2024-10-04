@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-color: rgb(157, 208, 191);
+}
+
+.container {
+    display: grid;
+    /* " " - Para criar linhas, repetindo o nome pra o tanto que deseja preencher*/
+    /* 3X4 */
+    grid-template-areas: "estrela estrela estrela estrela" "lua lua . sol" "eclipse eclipse eclipse eclipse";
+}
+
+.item {
+    border: 2px solid black;
+    background-color: rgb(185, 219, 94);
+    /* height: 50px;
+    width: 50px; */
+}
+
+.item-1 {
+    grid-area: estrela;
+}
+
+.item-2 {
+    grid-area: lua;
+}
+
+.item-3 {
+    grid-area: sol;
+}
+
+.item-4 {
+    grid-area: eclipse;
+}
