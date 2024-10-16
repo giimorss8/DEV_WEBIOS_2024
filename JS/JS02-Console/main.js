@@ -22,3 +22,5 @@ const Bolinho = 0
 // Valores: ''homer'' Quantidade de bits que representam a info
 // Números especiais: Pág 12
 // String: Representa TextDecoder, deverá estar dentro das aspas. PS: 'pipoca' ou ''lorem....'';
+
+//SOMAR - NÚMERO; CONCATENAR – TEXTOS ++++++++++
