@@ -12,3 +12,10 @@
 // console.log (valor);
 
 'Use strict'
+let media = 7
+let falta = 1
+// Falta > 5
+
+let res = media >= 7 && falta <= 2 ?  "Aprovado" :
+"reprovado";
+console.log (res)
