@@ -1,4 +1,15 @@
 body{
     text-align: center;
-
+    justify-content: center;
+    border: 5px black;
 }
+
+th,td{
+    border-left: 2px solid rgb(16, 16, 16);
+border-width: 2px solid black;
+}
+.fruta{
+    width: auto;
+    height: auto;
+}
+
