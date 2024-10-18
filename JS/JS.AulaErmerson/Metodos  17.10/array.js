@@ -13,11 +13,20 @@
 
 // console.log (Carros [3])
 
-let nome = prompt ('Qual é o seu nome?');
-
-alert (`Olá ${nome}`);
 
 // Atividade solicitada em aula:
+
+//Qual é o nome do usuário:
+// let nome = prompt ('Qual é o seu nome?');
+// alert (`Olá ${nome}`);
+
+let num1, num2, soma;
+
+num1 = Number(prompt (`Digite o 1º Número`) ) 
+num2 = Number(prompt (`Digite o 2º Número`))
+resultado = number1 + number2
+
+alert (`O valor da soma dos dois números são: ${number1} e ${number2} são: ${soma}`)
 
 
 let idade = prompt ('Digite sua idade:');
