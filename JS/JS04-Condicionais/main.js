@@ -18,7 +18,7 @@ console.clear ()
 
 let imparPar = 18
 
-if (imparPar % 2 ==0){
+if (imparPar % 2 ==0){ //True
     console.log ("Par")
     {Else}
 
