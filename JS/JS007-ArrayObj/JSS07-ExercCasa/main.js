@@ -12,14 +12,14 @@ let aluno = [
   console.log(aluno);
   
   // 2 - Informações do Bruno: 
-  let infoBruno = aluno.find(aluno => aluno.nome === 'Bruno');
-console.log(infoBruno);
+console.log(aluno[2]);
   
   // 3 - Nota da Maria:
-  let notaMaria = aluno.find(aluno => aluno.nome === 'Maria').nota;
-console.log(notaMaria);
+  console.log(aluno[5].nota);
   
   // 4 - Retorno do array em formato JSON:
-  let jsonArray = JSON.stringify(aluno);
-console.log(jsonArray);
+let JsonAluno = JSON.stringify(aluno);
+console.log(JsonAluno);
+
+//JSON > OBJ = parse /// OBJ > JSON = Stringfy
   
