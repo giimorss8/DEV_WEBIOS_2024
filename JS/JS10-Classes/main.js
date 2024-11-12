@@ -1,7 +1,7 @@
 class Aluno {
-    constructor (nome, idade, altura, isCracha, isCamisa, cor) {
+    constructor (nome, ano, altura, isCracha, isCamisa, cor) {
 nome: nome;
-idade: idade;
+ano: ano;
 altura: altura;
 isCracha: isCracha;
 isCamisa: isCamisa;
@@ -15,4 +15,5 @@ let aluno1 = Aluno("Manasses", 27, 1,90, true, true, "Black") ;
 
 
 let aluno2 = new Aluno ("Jeferson", 19, 1.75, true, true, "AllWhite" )
-console.log (´´
+console.log (aluno1)
+console.log (aluno2)
