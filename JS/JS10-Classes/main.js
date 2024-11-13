@@ -6,8 +6,13 @@ altura: altura;
 isCracha: isCracha;
 isCamisa: isCamisa;
 cor: cor;
+    }retornaIdade () {
+        letdataCompleta = new Date ();
+        let pegaAno = dataCompleta.getD
+        return ano.Date () - this.ano
     }
 }
+
 
 //Instancias == cópias
 
