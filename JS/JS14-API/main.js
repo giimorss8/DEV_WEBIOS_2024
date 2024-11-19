@@ -4,13 +4,12 @@ let URL = 'https://images.dog.ceo/breeds/pyrenees/n02111500_2736.jpg' //Link ext
 const DogApi = async () => {
     //Consulta na API e retorno o JSON na varíavel respo
     let resp = await fetch (URL)
-console.log (resp)
-    
-    resp.json ();
-    console.log (resp)
+
+    let exemplo = resp.json ()
+    console.log (exemplo)
 }
 
-console.log (DogAPI())
+DogApi ()
 
 //OBS:
 //O POST cria (CREATE) algo na aplicação web. Por exemplo uma instância registro de dados em um banco de dados.
